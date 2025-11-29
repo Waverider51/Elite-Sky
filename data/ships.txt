@@ -120,8 +120,8 @@ ship "Mamba"
 		"LP144a Battery Pack"
 		"D67-TM Shield Generator"
 		
-		"X4700 Ion Thruster"
-		"X4200 Ion Steering"
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
 		"Hyperdrive"
 		
 	gun 4 -42.5
@@ -191,7 +191,7 @@ ship "Python"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "The premier civilian interceptor, the Mamba is the next-generation Krait. Though it's not as cheap as the Krait, nor does it have the same level of customisability, the Mamba is a threat that shouldn't be taken lightly."
+	description "The aging Python is falling out of favour with traders as the more modern Boa supersedes it. However, it is still a decent freighter, having ample cargo space."
 
 
 
