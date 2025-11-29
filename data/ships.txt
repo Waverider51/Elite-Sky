@@ -9,7 +9,7 @@ ship "Adder"
 	thumbnail "thumbnail/adder"
 	attributes
 		category "Transport"
-		cost "655,000"
+		cost "655000"
 		"shields" 700
 		"hull" 700
 		"required crew" 1
