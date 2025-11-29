@@ -1,8 +1,0 @@
-shipyard "CarbunCorp."
-	"Adder"
-	"Krait"
-	"Mamba"
-	"Python"
-
-planet "New India" 
-	shipyard "CarbunCorp."

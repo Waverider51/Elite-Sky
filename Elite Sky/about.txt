@@ -1,9 +1,0 @@
-ELITE SKY
-
-This plugin adds ships from the open-source game Oolite, a game I highly recommend you play it!
-
-Thanks to Griff and Another_Commander for showing me where to get the ship models. Another thanks to Griff for telling me about the .obj files.
-
-Special thanks to Awa for spending a lot of their time trying to decode the .mesh files I originally had issues with, and sorry for wasting their time as there were .obj files anyway.
-
-Arise and walk on through, born anew as a member of the Carbuncle Collective.
