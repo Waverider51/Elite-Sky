@@ -151,9 +151,9 @@ ship "Python"
 		"heat dissipation" .90
 		"fuel capacity" 700
 		"cargo space" 115
-		"outfit space" 550
+		"outfit space" 510
 		"weapon capacity" 150
-		"engine capacity" 90
+		"engine capacity" 40
 		weapon
 			"blast radius" 30
 			"shield damage" 300
@@ -174,8 +174,8 @@ ship "Python"
 		"LP288a Battery Pack"
 		"D94-YV Shield Generator"
 		
-		"X3700 Ion Thruster"
-		"X3200 Ion Steering"
+		"X1700 Ion Thruster"
+		"X2200 Ion Steering"
 		"Hyperdrive"
 		
 	gun -2.5 -86 "Particle Cannon"
