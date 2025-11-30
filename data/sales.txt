@@ -3,6 +3,7 @@ shipyard "CarbunCorp."
 	"Krait"
 	"Mamba"
 	"Python"
+	"Viper-NG"
 
 planet "New India" 
 	shipyard "CarbunCorp."
