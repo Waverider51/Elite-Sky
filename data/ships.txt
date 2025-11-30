@@ -3,6 +3,7 @@ shipyard "CarbunCorp."
 	"Krait"
 	"Mamba"
 	"Python"
+	"Viper-NG"
 
 ship "Adder"
 	sprite "ship/adder"
@@ -193,5 +194,60 @@ ship "Python"
 	"final explode" "final explosion small"
 	description "The aging Python is falling out of favour with traders as the more modern Boa supersedes it. However, it is still a decent freighter, having ample cargo space."
 
+ship "Viper-NG"
+	sprite "ship/viperint"
+	thumbnail "thumbnail/viperint"
+	attributes
+		category "Medium Warship"
+		"cost" 5200000
+		"shields" 7000
+		"hull" 2000
+		"required crew" 3
+		"bunks" 25
+		"mass" 280
+		"drag" 2.5
+		"heat dissipation" 1.0
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 700
+		"weapon capacity" 300
+		"engine capacity" 200
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Proton Gun" 3
+		"Heavy Anti-Missile Turret"
+		"Blaster Turret" 2
+
+		"Dwarf Core"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		"Tactical Scanner"
+		"Water Cooling"
+		"Ramscoop"
+		"Scram Drive"
+		"Small Radar Jammer"
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+	gun 0 -45 "Proton Gun"
+	gun -10 -16 "Proton Gun"
+	gun 10 -16 "Proton Gun"
+	turret 0.5 31.5 "Heavy Anti-Missile Turret"
+	turret -14.5 13 "Blaster Turret"
+	turret 13 13.5 "Blaster Turret"
+	engine -14.5 43
+	engine 0 42.5
+	engine 15 42
+	leak "leak" 50 50
+	leak "flame" 80 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description "The next generation medium warship has been introduced to replace the aging Viper design. The Viper-Next Generation has extra gun ports and turret mounts, with more shields and hull, making it a fearsome ship.
 
 
