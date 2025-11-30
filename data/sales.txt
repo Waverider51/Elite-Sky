@@ -5,6 +5,7 @@ shipyard "CarbunCorp."
 	"Python"
 	"Viper"
 	"Viper-NG"
+	"Boa"
 
 planet "New India" 
 	shipyard "CarbunCorp."
