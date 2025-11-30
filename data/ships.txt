@@ -194,6 +194,53 @@ ship "Python"
 	"final explode" "final explosion small"
 	description "The aging Python is falling out of favour with traders as the more modern Boa supersedes it. However, it is still a decent freighter, having ample cargo space."
 
+ship "Viper"
+	sprite "ship/viper"
+	thumbnail "thumbnail/viper"
+	attributes
+		category "Light Warship"
+		"cost" 2200000
+		"shields" 5400
+		"hull" 1200
+		"required crew" 1
+		"bunks" 11
+		"mass" 230
+		"drag" 2.0
+		"heat dissipation" .90
+		"fuel capacity" 700
+		"cargo space" 10
+		"outfit space" 400
+		"weapon capacity" 120
+		"engine capacity" 150
+		weapon
+			"blast radius" 72
+			"shield damage" 720
+			"hull damage" 360
+			"hit force" 1080
+	outfits
+		"Plasma Cannon"
+		"Anti-Missile Turret"
+		"S3 Thermionic"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		"Tactical Scanner"
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+
+	gun 0.5 -39.5 "Plasma Cannon"
+	turret 0 20.5	"Anti-Missile Turret"
+	engine -13 29.5
+	engine 13 29.5	
+	leak "leak" 50 50
+	leak "flame" 80 80
+	explode "tiny explosion" 10
+	explode "small explosion" 20
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "The Viper used to protect space lanes and stations, and still does in a smaller scale till this day. However, its design is starting to show its age especially against modern craft, but most criminals will still retreat when confronted by a full patrol wing."
+
 ship "Viper-NG"
 	sprite "ship/viperint"
 	thumbnail "thumbnail/viperint"
@@ -249,5 +296,3 @@ ship "Viper-NG"
 	explode "medium explosion" 15
 	"final explode" "final explosion medium"
 	description "The next generation medium warship has been introduced to replace the aging Viper design. The Viper-Next Generation has extra gun ports and turret mounts, with more shields and hull, making it a fearsome ship.
-
-
