@@ -4,6 +4,7 @@ shipyard "CarbunCorp."
 	"Mamba"
 	"Python"
 	"Viper"
+	"Viper-NG"
 
 planet "New India" 
 	shipyard "CarbunCorp."
