@@ -4,6 +4,7 @@ shipyard "CarbunCorp."
 	"Mamba"
 	"Python"
 	"Viper-NG"
+	"Boa"
 
 ship "Adder"
 	sprite "ship/adder"
@@ -296,3 +297,65 @@ ship "Viper-NG"
 	explode "medium explosion" 15
 	"final explode" "final explosion medium"
 	description "The next generation medium warship has been introduced to replace the aging Viper design. The Viper-Next Generation has extra gun ports and turret mounts, with more shields and hull, making it a fearsome ship.
+
+ship "Boa"
+	sprite "ship/boa"
+	thumbnail "thumbnail/boa"
+	attributes
+		category "Heavy Freighter"
+		"cost" 4000000
+		"shields" 20000
+		"hull" 6000
+		"required crew" 2
+		"bunks" 25
+		"mass" 500
+		"drag" 3.0
+		"heat dissipation" .50
+		"fuel capacity" 900
+		"cargo space" 150
+		"outfit space" 550
+		"weapon capacity" 200
+		"engine capacity" 90
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Heavy Anti-Missile Turret" 2
+		"Particle Cannon" 2
+		"Heavy Laser Turret" 2
+
+		"Tactical Scanner"
+		"Asteroid Scanner"	
+		"Liquid Nitrogen Cooler"
+		"Large Radar Jammer"
+		
+		"nGVF-CC Fuel Cell"	
+		"Fission Reactor"
+		"KP-6 Photovoltaic Array" 2
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+
+	gun 2.5 -71 "Particle Cannon
+	gun -1.5 -71 "Particle Cannon
+	gun -45 52
+		angle 270
+	gun 45 52
+		angle 90		
+	gun 0 85
+		angle 180
+	turret -14 18 "Heavy Laser Turret"
+	turret 14 18 "Heavy Laser Turret"
+	turret -0 45 "Heavy Anti-Missile Turret"
+	turret 0 -45 "Heavy Anti-Missile Turret"
+	engine 0 83	
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "The aging Python is falling out of favour with traders as the more modern Boa supersedes it. However, it is still a decent freighter, having ample cargo space."
