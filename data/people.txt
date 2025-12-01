@@ -29,3 +29,42 @@ person "Commander Jameson"
 			"I heard GalCop doesn't patrol this area"
 	
 	ship "Constrictor" "Pride of Lave"
+
+person "Nuke-O"
+	government "Author"
+	frequency 100000
+	personality
+		plunders
+		timid
+		hunting
+		disables
+		plunders
+		unconstrained
+		mining
+		getaway
+		secretive
+		vindictive
+		opportunistic
+		merciful
+		daring
+		harvests
+	system
+		government "Avgi" "Free Worlds" "Republic" "Syndicate" "Wanderer" "Successor" "Incipias" "Coalition" "Uninhabited" "Ember Waste" "Pug" "Hai"
+
+	phrase 
+		word	
+			"Then it all just, came out."
+			"I thought I was happy."
+			"Isn't the view spectacular?"
+			"May Lord Giles have mercy on my soul."
+			"Have you any of those Modified Carriers? I've been thinking about getting one."
+			"Check out my plugins!"
+			"Glory to the Carbuncle Collective."
+			"I should be flyin' straight with no delay, cause time takes from everyone."
+			"Endless Sky is open source that means that you can is the are may!"
+			"Giles bless you, captain!"
+			"Hail fellow starfarer!"
+			"Tally-ho Captain!"
+			"Have you tried the hit game Oolite?"
+	
+	ship "Carbstrictor" "Nuke-O"
