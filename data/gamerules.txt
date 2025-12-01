@@ -1,0 +1,4 @@
+
+gamerules
+	# One minute.
+	"person spawn period" 3600
