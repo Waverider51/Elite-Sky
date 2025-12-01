@@ -1,0 +1,31 @@
+person "Commander Jameson"
+	government "Author"
+	frequency 100000
+	personality
+		plunders
+		heroic
+		vindictive
+		opportunistic
+		merciful
+		daring
+		harvests
+	system
+		government "Avgi" "Free Worlds" "Republic" "Syndicate" "Wanderer" "Successor" "Incipias" "Coalition" "Uninhabited" "Ember Waste" "Pug" "Hai"
+
+	phrase 
+		word	
+			"Have you played Oolite before?"
+			"Seen any Thargons?"
+			"Seen any Pirates?"
+			"Only Lord Giles can save you if you default on the Black Monks."
+			"I'm thinking of purchasing a Night Adder!"
+			"I hope I see a Generation ship one day."
+			"There are some friendly people on Riedquat!"
+			"Damn Trumbles ate all my food!"
+			"I hate Trumbles."
+			"Be careful when following merchants through wormholes!"
+			"I need to get that tea maker."
+			"There are hundreds of OXPs for Oolite, letting you change your game however you want!"
+			"I heard GalCop doesn't patrol this area"
+	
+	ship "Constrictor" "Pride of Lave"
