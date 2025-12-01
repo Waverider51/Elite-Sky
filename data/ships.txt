@@ -360,6 +360,57 @@ ship "Boa"
 	"final explode" "final explosion small"
 	description "The aging Python is falling out of favour with traders as the more modern Boa supersedes it. However, it is still a decent freighter, having ample cargo space."
 
+ship "Asp Mk.II"
+	sprite "ship/asp"
+	thumbnail "thumbnail/asp"
+	attributes
+		category "Light Warship"
+		"cost" 375000
+		"shields" 8000
+		"hull" 1500
+		"required crew" 1
+		"bunks" 16
+		"mass" 130
+		"drag" 0.70
+		"heat dissipation" .90
+		"fuel capacity" 600
+		"cargo space" 20
+		"outfit space" 400
+		"weapon capacity" 150
+		"engine capacity" 100
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
+	outfits
+		"Heavy Laser" 3	
+		"Heavy Anti-Missile Turret"	
+
+
+		"NT-200 Nucleovoltaic"
+		"LP144a Battery Pack"
+		"D67-TM Shield Generator"
+		
+		"X3700 Ion Thruster"
+		"X3200 Ion Steering"
+		"Hyperdrive"
+
+	gun 0.5 -41 "Heavy Laser"
+	gun -10 -30.5 "Heavy Laser"
+	gun 12 -30.5 "Heavy Laser"
+	turret 0.5 4.5 "Heavy Anti-Missile Turret"
+	turret -13.5 29
+	turret 14.5 29
+	engine 1.5 39
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "The Asp Mark II began life as purely a military machine, the first production model entering service with the Galactic Navy in 2878. The enigmatic craft was unveiled after a lengthy period of secrecy, and immediately went into battle in the first (and most deadly) round of the Thargoid wars. In other parts of the universe, the ship was used as a patrol vessel. Once the ship was effectively superseded by the Behemoth with a bellyful of Vipers, the ship was produced under license by Zorgon Petterson Group and sold to civilian pilots. The main target market was trader escorts. It also sees use as a fast courier."
+
+
+
 ### AUTHORS ###
 
 ship "Constrictor"
