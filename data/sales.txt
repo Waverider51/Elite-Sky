@@ -6,6 +6,7 @@ shipyard "CarbunCorp."
 	"Viper"
 	"Viper-NG"
 	"Boa"
+	"Asp Mk. II"
 
 planet "New India" 
 	shipyard "CarbunCorp."
