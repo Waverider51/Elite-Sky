@@ -6,6 +6,7 @@ shipyard "CarbunCorp."
 	"Viper-NG"
 	"Boa"
 	"Asp Mk.II"
+	"Orbital Shuttle"
 
 ship "Adder"
 	sprite "ship/adder"
@@ -448,6 +449,36 @@ ship "Worm"
 	explode "small explosion" 5
 	description "A light transport craft similar to the orbital shuttle, but with weapon space and the need to be manned by a single pilot. The Worm's weapon mounting is usually used by miners for a cheap mining ship, but particularly desperate pilots have been known to fit it with weapons and use it as a (very) light escort craft."
 	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
+
+ship "Orbital Shuttle"
+	sprite "ship/ooshuttle"
+	thumbnail "thumbnail/ooshuttle"
+	attributes
+		category "Drone"
+		cost 30000
+		"hull" 600
+		"required crew" 0
+		"bunks" 10
+		"mass" 54
+		"drag" .65
+		"heat dissipation" .25
+		"outfit space" 50
+		"engine capacity" 20
+		"cargo space" 5
+		weapon
+			"blast radius" 3
+			"shield damage" 30
+			"hull damage" 15
+			"hit force" 45
+	outfits
+		"LP072a Battery Pack"
+		"X1050 Ion Engines"
+
+	engine 0 15
+	explode "tiny explosion" 15
+	description "These unarmed and often unmanned craft are built under license in every planetary system. Based on a prototype developed by Saud-Kruger AstroDesign, they are used for cargo ferrying between planet and space station, but can be modified to hospital ships, or orbiting prisons. Currently it is modified to fit inside a ship's drone bay."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
+
 
 ### AUTHORS ###
 
