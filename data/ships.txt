@@ -350,6 +350,8 @@ ship "Boa"
 		angle 90		
 	gun 0 85
 		angle 180
+	bay "Fighter" 0.5 17
+		"launch effect" "human internal"
 	turret -14 18 "Heavy Laser Turret"
 	turret 14 18 "Heavy Laser Turret"
 	turret -0 45 "Heavy Anti-Missile Turret"
