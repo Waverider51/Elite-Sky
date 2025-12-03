@@ -316,7 +316,7 @@ ship "Boa"
 		"heat dissipation" .50
 		"fuel capacity" 900
 		"cargo space" 150
-		"outfit space" 550
+		"outfit space" 570
 		"weapon capacity" 200
 		"engine capacity" 90
 		weapon
