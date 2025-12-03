@@ -8,6 +8,7 @@ shipyard "CarbunCorp."
 	"Boa"
 	"Asp Mk. II"
 	"Orbital Shuttle"
+	"Worm"
 
 planet "New India" 
 	shipyard "CarbunCorp."
